@@ -1,0 +1,56 @@
+.sectionHero{
+    flex: 1 1 auto;
+    width:450px; 
+    /* max-height: 100vh; */
+    background: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
+img{
+    max-width: 100%;
+    margin: 5px;
+}
+.item{margin-bottom: 10px;}
+
+span.bold {
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.infoText{
+    vertical-align:middle;
+}
+
+
+/* .star-rating {
+    display: flex;
+    direction: row-reverse;
+    justify-content: center;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    background: url('https://cdn-icons-png.flaticon.com/128/2893/2893811.png') no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.star:hover, .star.selected {
+    transform: scale(1.2);
+    background: url('https://cdn-icons-png.flaticon.com/128/1828/1828884.png') no-repeat center;
+    background-size: cover;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+} */
